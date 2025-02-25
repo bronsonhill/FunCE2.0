@@ -3,3 +3,4 @@ streamlit==1.40.2
 llama-index==0.12.2
 nltk==3.9.1
 llama-index-llms-anthropic==0.5.0
+pymongo>=4.7
