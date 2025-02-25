@@ -1,0 +1,18 @@
+{
+    "name": "check_answer",
+    "description": "Returns true or false if the answer is correct.",
+    "strict": true,
+    "parameters": {
+      "type": "object",
+      "required": [
+        "correctness"
+      ],
+      "properties": {
+        "correctness": {
+          "type": "boolean",
+          "description": "Indicates if the answer is correct (true) or not (false)"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
